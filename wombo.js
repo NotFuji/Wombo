@@ -55,13 +55,13 @@ console.log("\x1b[7mProcessing args:\x1b[0m");
 console.log("+------------------------------------+");
 
 a_r = args[2];
-console.log("Red    : \x1b[4m" + a_r);
+console.log("Red    : \x1b[4m" + a_r + "\x1b[0m");
 a_g = args[3];
-console.log("Green  : \x1b[4m" + a_g);
+console.log("Green  : \x1b[4m" + a_g + "\x1b[0m");
 a_b = args[4];
-console.log("Blue   : \x1b[4m" + a_b);
+console.log("Blue   : \x1b[4m" + a_b + "\x1b[0m");
 a_o = args[5];
-console.log("Output : \x1b[4m" + a_o);
+console.log("Output : \x1b[4m" + a_o + "\x1b[0m");
 
 console.log("+------------------------------------+");
 
